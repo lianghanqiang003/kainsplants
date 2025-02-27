@@ -238,13 +238,13 @@
         "type": "color",  // 颜色类型设置
         "id": "background",  // 设置 ID
         "label": "Background",  // 标签
-        "default": "#f5f2f0"  // 默认值
+        "default": "#ffffff"  // 默认值
       },
       {
         "type": "color",  // 颜色类型设置
         "id": "text_color",  // 设置 ID
         "label": "Text",  // 标签
-        "default": "#322d1c"  // 默认值
+        "default": "#677279"  // 默认值
         // #322d1c  #aca1a6 #637c27 #b7db77
       },
       {
@@ -273,13 +273,13 @@
         "type": "color",  // 颜色类型设置
         "id": "header_background",  // 设置 ID
         "label": "Background",  // 标签
-        "default": "#aca1a6"  // 默认值
+        "default": "#637c27"  // 默认值
       },
       {
         "type": "color",  // 颜色类型设置
         "id": "header_text_color",  // 设置 ID
         "label": "Text",  // 标签
-        "default": "#f5f2f0"  // 默认值
+        "default": "#ffffff"  // 默认值
       },
       {
         "type": "header",  // 标题类型
@@ -316,7 +316,7 @@
         "type": "color",  // 颜色类型设置
         "id": "primary_button_background",  // 设置 ID
         "label": "Background",  // 标签
-        "default": "#00badb"  // 默认值
+        "default": "#637c27"  // 默认值
       },
       {
         "type": "color",  // 颜色类型设置
@@ -379,7 +379,7 @@
         "type": "color",  // 颜色类型设置
         "id": "product_primary_badge_background",  // 设置 ID
         "label": "Custom badge",  // 标签
-        "default": "#1e316a"  // 默认值
+        "default": "#637c57"  // 默认值
       }
     ]  // 设置数组结束
   },
