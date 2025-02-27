@@ -1,0 +1,935 @@
+[
+  {
+    "name": "theme_info",  // 主题信息的名称
+    "theme_name": "KainsPlants",  // 主题名称
+    "theme_author": "Hank",  // 主题作者
+    "theme_version": "1.0.0",  // 主题版本
+    "theme_documentation_url": "https://www.kainsplants.com",  // 主题文档链接
+    "theme_support_url": "https://www.kainsplants.com"  // 主题支持链接
+  },
+  {
+    "name": "Appearance and spacing",  // 外观和间距设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "paragraph",  // 段落类型
+        "content": "Adapt the theme to your brand style by changing rounded elements, spacing and icons style."  // 段落内容
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "page_width",  // 设置 ID
+        "min": 1300,  // 最小值
+        "max": 1800,  // 最大值
+        "step": 20,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Page width",  // 标签
+        "default": 1600  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Section spacing"  // 标题内容
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "section_vertical_spacing",  // 设置 ID
+        "label": "Vertical space between sections",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "xsmall",  // 选项值
+            "label": "X-Small"  // 选项标签
+          },
+          {
+            "value": "small",  // 选项值
+            "label": "Small"  // 选项标签
+          },
+          {
+            "value": "medium",  // 选项值
+            "label": "Medium"  // 选项标签
+          },
+          {
+            "value": "large",  // 选项值
+            "label": "Large"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "medium"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "section_boxed_horizontal_spacing",  // 设置 ID
+        "label": "Horizontal space inside sections",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "xsmall",  // 选项值
+            "label": "X-Small"  // 选项标签
+          },
+          {
+            "value": "small",  // 选项值
+            "label": "Small"  // 选项标签
+          },
+          {
+            "value": "medium",  // 选项值
+            "label": "Medium"  // 选项标签
+          },
+          {
+            "value": "large",  // 选项值
+            "label": "Large"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "medium"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Rounding"  // 标题内容
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "button_border_radius",  // 设置 ID
+        "min": 0,  // 最小值
+        "max": 60,  // 最大值
+        "step": 2,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Button corner radius",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "input_border_radius",  // 设置 ID
+        "min": 0,  // 最小值
+        "max": 10,  // 最大值
+        "step": 2,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Input corner radius",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "block_border_radius",  // 设置 ID
+        "min": 0,  // 最小值
+        "max": 64,  // 最大值
+        "step": 4,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Block corner radius",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Shadow"  // 标题内容
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "block_shadow_opacity",  // 设置 ID
+        "min": 0,  // 最小值
+        "max": 100,  // 最大值
+        "unit": "%",  // 单位为百分比
+        "label": "Opacity",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "block_shadow_horizontal_offset",  // 设置 ID
+        "min": -32,  // 最小值
+        "max": 32,  // 最大值
+        "step": 2,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Horizontal offset",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "block_shadow_vertical_offset",  // 设置 ID
+        "min": -32,  // 最小值
+        "max": 32,  // 最大值
+        "step": 2,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Vertical offset",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "block_shadow_blur",  // 设置 ID
+        "min": 0,  // 最小值
+        "max": 60,  // 最大值
+        "step": 5,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Blur",  // 标签
+        "default": 50  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Icon"  // 标题内容
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "icon_stroke_width",  // 设置 ID
+        "min": 1,  // 最小值
+        "max": 2,  // 最大值
+        "step": 0.1,  // 步长
+        "unit": "px",  // 单位为像素
+        "label": "Icon thickness",  // 标签
+        "default": 2  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "icon_style",  // 设置 ID
+        "label": "Icon style",  // 标签
+        "info": "Not all icons have duo-tone style.",  // 信息提示
+        "options": [  // 选项数组开始
+          {
+            "value": "mono",  // 选项值
+            "label": "Monochrome"  // 选项标签
+          },
+          {
+            "value": "duo",  // 选项值
+            "label": "Duo-tone"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "duo"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Button"  // 标题内容
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "button_style",  // 设置 ID
+        "label": "Button style",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "fill",  // 选项值
+            "label": "Fill"  // 选项标签
+          },
+          {
+            "value": "outline",  // 选项值
+            "label": "Outline"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "fill"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "button_hover_effect",  // 设置 ID
+        "label": "Hover effect",  // 标签
+        "info": "Hover is not available on touch devices (phone, tablet...).",  // 信息提示
+        "options": [  // 选项数组开始
+          {
+            "value": "none",  // 选项值
+            "label": "None"  // 选项标签
+          },
+          {
+            "value": "fade",  // 选项值
+            "label": "Fade"  // 选项标签
+          },
+          {
+            "value": "reverse",  // 选项值
+            "label": "Reverse style"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "fade"  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Colors",  // 颜色设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "header",  // 标题类型
+        "content": "General"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "background",  // 设置 ID
+        "label": "Background",  // 标签
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "text_color",  // 设置 ID
+        "label": "Text",  // 标签
+        "default": "#677279"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "success_color",  // 设置 ID
+        "label": "Success",  // 标签
+        "default": "#00a341"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "warning_color",  // 设置 ID
+        "label": "Warning",  // 标签
+        "default": "#ffb74a"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "error_color",  // 设置 ID
+        "label": "Error",  // 标签
+        "default": "#f83a3a"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Header"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "header_background",  // 设置 ID
+        "label": "Background",  // 标签
+        "default": "#1e316a"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "header_text_color",  // 设置 ID
+        "label": "Text",  // 标签
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Footer"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "footer_background",  // 设置 ID
+        "label": "Background",  // 标签
+        "default": "#f3f5f6"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "footer_text_color",  // 设置 ID
+        "label": "Text",  // 标签
+        "default": "#677279"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Drawer/popover"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "dialog_background",  // 设置 ID
+        "label": "Modal/popover background",  // 标签
+        "info": "Choose a color similar to the primary background.",  // 信息提示
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Primary button"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "primary_button_background",  // 设置 ID
+        "label": "Background",  // 标签
+        "default": "#00badb"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "primary_button_text_color",  // 设置 ID
+        "label": "Text",  // 标签
+        "default": "#677279"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Secondary button"  // 标题内容
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "secondary_button_background",  // 设置 ID
+        "label": "Background",  // 标签
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "secondary_button_text_color",  // 设置 ID
+        "label": "Text",  // 标签
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Product",  // 标题内容
+        "info": "[Learn more](https://support.maestrooo.com/article/75-collection-displaying-custom-label) about setting custom badges."  // 信息提示
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_card_background",  // 设置 ID
+        "label": "Card background",  // 标签
+        "default": "#ffffff"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_card_text_color",  // 设置 ID
+        "label": "Card text",  // 标签
+        "default": "#677279"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_rating_color",  // 设置 ID
+        "label": "Star rating",  // 标签
+        "default": "#ffb74a"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_on_sale_accent",  // 设置 ID
+        "label": "On sale accent",  // 标签
+        "default": "#f83a3a"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_sold_out_badge_background",  // 设置 ID
+        "label": "Sold out badge",  // 标签
+        "default": "#000000"  // 默认值
+      },
+      {
+        "type": "color",  // 颜色类型设置
+        "id": "product_primary_badge_background",  // 设置 ID
+        "label": "Custom badge",  // 标签
+        "default": "#1e316a"  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Typography",  // 排版设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "header",  // 标题类型
+        "content": "Headings"  // 标题内容
+      },
+      {
+        "type": "font_picker",  // 字体选择器类型
+        "id": "heading_font",  // 设置 ID
+        "label": "Font",  // 标签
+        "info": "Selecting different fonts can affect the speed of your online store. Learn more about [system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",  // 信息提示
+        "default": "helvetica_n4"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "heading_font_size",  // 设置 ID
+        "label": "Heading size",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "small",  // 选项值
+            "label": "Small"  // 选项标签
+          },
+          {
+            "value": "medium",  // 选项值
+            "label": "Medium"  // 选项标签
+          },
+          {
+            "value": "large",  // 选项值
+            "label": "Large"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "medium"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "heading_text_transform",  // 设置 ID
+        "label": "Heading style",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "normal",  // 选项值
+            "label": "Normal"  // 选项标签
+          },
+          {
+            "value": "lowercase",  // 选项值
+            "label": "Lowercase"  // 选项标签
+          },
+          {
+            "value": "uppercase",  // 选项值
+            "label": "Uppercase"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "normal"  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "min": -5,  // 最小值
+        "max": 10,  // 最大值
+        "step": 0.5,  // 步长
+        "unit": "%",  // 单位为百分比
+        "id": "heading_letter_spacing",  // 设置 ID
+        "label": "Heading letter spacing",  // 标签
+        "default": 0  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Body text"  // 标题内容
+      },
+      {
+        "type": "font_picker",  // 字体选择器类型
+        "id": "text_font",  // 设置 ID
+        "label": "Font",  // 标签
+        "info": "Selecting different fonts can affect the speed of your online store. Learn more about [system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",  // 信息提示
+        "default": "helvetica_n4"  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "text_font_size_mobile",  // 设置 ID
+        "label": "Base size (mobile)",  // 标签
+        "min": 11,  // 最小值
+        "max": 20,  // 最大值
+        "unit": "px",  // 单位为像素
+        "default": 14  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "id": "text_font_size_desktop",  // 设置 ID
+        "label": "Base size (tablet and desktop)",  // 标签
+        "min": 11,  // 最小值
+        "max": 20,  // 最大值
+        "unit": "px",  // 单位为像素
+        "default": 16  // 默认值
+      },
+      {
+        "type": "range",  // 范围类型设置
+        "min": -5,  // 最小值
+        "max": 10,  // 最大值
+        "step": 0.5,  // 步长
+        "unit": "%",  // 单位为百分比
+        "id": "text_font_letter_spacing",  // 设置 ID
+        "label": "Body letter spacing",  // 标签
+        "default": 0  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Currency format",  // 货币格式设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "header",  // 标题类型
+        "content": "Currency codes"  // 标题内容
+      },
+      {
+        "type": "paragraph",  // 段落类型
+        "content": "Cart and checkout total prices always show currency codes. Example: $1.00 USD."  // 段落内容
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "currency_code_enabled",  // 设置 ID
+        "label": "Show currency codes",  // 标签
+        "default": false  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Animation",  // 动画设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "paragraph",  // 段落类型
+        "content": "Users who configured their preferences to minimize non-essential motion will automatically experience reduced animations."  // 段落内容
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_page_transition",  // 设置 ID
+        "label": "Show page transition",  // 标签
+        "info": "Fade in and out when the page changes.",  // 信息提示
+        "default": false  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "zoom_image_on_hover",  // 设置 ID
+        "label": "Zoom image on hover",  // 标签
+        "info": "Various images are zoomed when hovered.",  // 信息提示
+        "default": true  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "reduce_drawer_animation",  // 设置 ID
+        "label": "Reduce drawer animation",  // 标签
+        "default": false  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "reduce_menu_animation",  // 设置 ID
+        "label": "Reduce header menu animation",  // 标签
+        "default": false  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "heading_apparition",  // 设置 ID
+        "label": "Heading apparition",  // 标签
+        "info": "Line by line apparition can't be used for gradient heading. [Learn more](https://support.maestrooo.com/article/299-limitation-for-gradients-on-KainsPlants-theme)",  // 信息提示
+        "options": [  // 选项数组开始
+          {
+            "value": "none",  // 选项值
+            "label": "None"  // 选项标签
+          },
+          {
+            "value": "fade",  // 选项值
+            "label": "Fade"  // 选项标签
+          },
+          {
+            "value": "split_fade",  // 选项值
+            "label": "Line by line, fade"  // 选项标签
+          },
+          {
+            "value": "split_clip",  // 选项值
+            "label": "Line by line, clipped"  // 选项标签
+          },
+          {
+            "value": "split_rotation",  // 选项值
+            "label": "Line by line, rotated"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "split_rotation"  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Color swatch",  // 颜色样本设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "color_swatch_style",  // 设置 ID
+        "label": "Style",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "square",  // 选项值
+            "label": "Square"  // 选项标签
+          },
+          {
+            "value": "rectangle",  // 选项值
+            "label": "Rectangle"  // 选项标签
+          },
+          {
+            "value": "round",  // 选项值
+            "label": "Round"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "round"  // 默认值
+      },
+      {
+        "type": "textarea",  // 文本区域类型
+        "id": "color_swatch_config",  // 设置 ID
+        "label": "Configuration",  // 标签
+        "placeholder": "Red:#ff0000\nGreen:#00ff00\nBlue:#0000ff",  // 占位符
+        "info": "Each rule must be in its own line. [Learn more](https://support.maestrooo.com/article/80-product-uploading-custom-color-for-color-swatch) about the exact naming convention."  // 信息提示
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Product card",  // 产品卡片设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_vendor",  // 设置 ID
+        "label": "Show vendor",  // 标签
+        "default": false  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_secondary_image",  // 设置 ID
+        "label": "Show secondary image on hover",  // 标签
+        "default": true  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_quick_buy",  // 设置 ID
+        "label": "Show quick buy",  // 标签
+        "default": true  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_product_rating",  // 设置 ID
+        "label": "Show product rating",  // 标签
+        "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/en/manual/products/product-reviews/installation)",  // 信息提示
+        "default": false  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "product_rating_mode",  // 设置 ID
+        "label": "Show product rating as...",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "rating",  // 选项值
+            "label": "Average rating (e.g. \"4.5\")"  // 选项标签
+          },
+          {
+            "value": "count",  // 选项值
+            "label": "Count (e.g. \"3 reviews\")"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "rating"  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_sold_out_badge",  // 设置 ID
+        "label": "Show sold out badge",  // 标签
+        "default": true  // 默认值
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "show_discount",  // 设置 ID
+        "label": "Show discount badge",  // 标签
+        "default": true  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "discount_mode",  // 设置 ID
+        "label": "Show discount as...",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "percentage",  // 选项值
+            "label": "Percentage"  // 选项标签
+          },
+          {
+            "value": "saving",  // 选项值
+            "label": "Saving"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "saving"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "product_color_display",  // 设置 ID
+        "label": "Color display mode",  // 标签
+        "info": "Variant images are hidden on mobile and small screens.",  // 信息提示
+        "options": [  // 选项数组开始
+          {
+            "value": "hide",  // 选项值
+            "label": "Hide"  // 选项标签
+          },
+          {
+            "value": "count",  // 选项值
+            "label": "Count"  // 选项标签
+          },
+          {
+            "value": "swatch",  // 选项值
+            "label": "Swatch"  // 选项标签
+          },
+          {
+            "value": "variant",  // 选项值
+            "label": "Variant image"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "count"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "product_image_aspect_ratio",  // 设置 ID
+        "label": "Product image size",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "natural",  // 选项值
+            "label": "Natural"  // 选项标签
+          },
+          {
+            "value": "short",  // 选项值
+            "label": "Short (4:3)"  // 选项标签
+          },
+          {
+            "value": "square",  // 选项值
+            "label": "Square (1:1)"  // 选项标签
+          },
+          {
+            "value": "tall",  // 选项值
+            "label": "Tall (2:3)"  // 选项标签
+          },
+          {
+            "value": "short_crop",  // 选项值
+            "label": "Short (4:3) - fill card"  // 选项标签
+          },
+          {
+            "value": "square_crop",  // 选项值
+            "label": "Square (1:1) - fill card"  // 选项标签
+          },
+          {
+            "value": "tall_crop",  // 选项值
+            "label": "Tall (2:3) - fill card"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "natural"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "product_info_alignment",  // 设置 ID
+        "label": "Product info alignment",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "start",  // 选项值
+            "label": "Left"  // 选项标签
+          },
+          {
+            "value": "center",  // 选项值
+            "label": "Center"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "start"  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Cart",  // 购物车设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "cart_type",  // 设置 ID
+        "label": "Cart type",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "drawer",  // 选项值
+            "label": "Drawer"  // 选项标签
+          },
+          {
+            "value": "popover",  // 选项值
+            "label": "Confirmation popup"  // 选项标签
+          },
+          {
+            "value": "page",  // 选项值
+            "label": "Page"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "popover"  // 默认值
+      },
+      {
+        "type": "select",  // 下拉选择类型
+        "id": "cart_icon",  // 设置 ID
+        "label": "Cart icon",  // 标签
+        "options": [  // 选项数组开始
+          {
+            "value": "shopping_basket",  // 选项值
+            "label": "Shopping basket"  // 选项标签
+          },
+          {
+            "value": "tote_bag",  // 选项值
+            "label": "Tote bag"  // 选项标签
+          },
+          {
+            "value": "shopping_cart",  // 选项值
+            "label": "Shopping cart"  // 选项标签
+          }
+        ],  // 选项数组结束
+        "default": "shopping_basket"  // 默认值
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "cart_empty_button_link",  // 设置 ID
+        "label": "Empty button link",  // 标签
+        "default": "/collections/all"  // 默认值
+      },
+      {
+        "type": "header",  // 标题类型
+        "content": "Free shipping bar",  // 标题内容
+        "info": "Show a shipping bar advancement on cart page and cart drawer. Configure your [shipping rates](/admin/settings/shipping) to match the amount."  // 信息提示
+      },
+      {
+        "type": "checkbox",  // 复选框类型
+        "id": "cart_show_free_shipping_threshold",  // 设置 ID
+        "label": "Show shipping bar",  // 标签
+        "default": false  // 默认值
+      },
+      {
+        "type": "number",  // 数字类型
+        "id": "cart_free_shipping_threshold",  // 设置 ID
+        "label": "Free shipping minimum amount",  // 标签
+        "info": "Indicate the value in your store main currency.",  // 信息提示
+        "default": 50  // 默认值
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Social media",  // 社交媒体设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "header",  // 标题类型
+        "content": "Accounts"  // 标题内容
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_facebook",  // 设置 ID
+        "label": "Facebook"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_twitter",  // 设置 ID
+        "label": "X (formerly Twitter)"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_threads",  // 设置 ID
+        "label": "Threads"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_pinterest",  // 设置 ID
+        "label": "Pinterest"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_instagram",  // 设置 ID
+        "label": "Instagram"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_vimeo",  // 设置 ID
+        "label": "Vimeo"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_whatsapp",  // 设置 ID
+        "label": "WhatsApp"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_tumblr",  // 设置 ID
+        "label": "Tumblr"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_youtube",  // 设置 ID
+        "label": "YouTube"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_tiktok",  // 设置 ID
+        "label": "TikTok"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_linkedin",  // 设置 ID
+        "label": "LinkedIn"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_snapchat",  // 设置 ID
+        "label": "Snapchat"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_fancy",  // 设置 ID
+        "label": "Fancy"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_wechat",  // 设置 ID
+        "label": "WeChat"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_reddit",  // 设置 ID
+        "label": "Reddit"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_line",  // 设置 ID
+        "label": "LINE"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_spotify",  // 设置 ID
+        "label": "Spotify"  // 标签
+      },
+      {
+        "type": "url",  // URL 类型
+        "id": "social_21buttons",  // 设置 ID
+        "label": "21 Buttons"  // 标签
+      }
+    ]  // 设置数组结束
+  },
+  {
+    "name": "Favicon",  // 网站图标设置的名称
+    "settings": [  // 设置数组开始
+      {
+        "type": "image_picker",  // 图片选择器类型
+        "id": "favicon",  // 设置 ID
+        "label": "Image",  // 标签
+        "info": "180 x 180px .png recommended"  // 信息提示
+      }
+    ]  // 设置数组结束
+  }
+]
