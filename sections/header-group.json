@@ -30,7 +30,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#637c27",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -40,13 +40,13 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo_max_width": 120,
-        "logo_mobile_max_width": 100,
+        "logo_max_width": 40,
+        "logo_mobile_max_width": 25,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
-        "opening_from": "bottom",
+        "opening_from": "left",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
         "show_locale_selector": true,
