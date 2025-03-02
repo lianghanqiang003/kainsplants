@@ -16,6 +16,28 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/slider1-pc.jpg",
+            "mobile_image": "shopify://shop_images/pexels-onbab-30937902_2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_L9yLGc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-zen-chung-5748730.jpg",
             "mobile_image": "shopify://shop_images/pexels-zen-chung-5748730.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
@@ -36,7 +58,8 @@
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "image_L9yLGc"
       ],
       "settings": {
         "full_width": false,
