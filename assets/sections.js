@@ -705,8 +705,8 @@ var KainsPlantsText = class extends HTMLElement {
     }
   }
 };
-if (!window.customElements.get("KainsPlants-text")) {
-  window.customElements.define("KainsPlants-text", KainsPlantsText);
+if (!window.customElements.get("kainsplants-text")) {
+  window.customElements.define("kainsplants-text", KainsPlantsText);
 }
 
 // js/sections/media-grid.js
