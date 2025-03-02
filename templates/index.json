@@ -244,8 +244,8 @@
         "product_card_text_color": ""
       }
     },
-    "KainsPlants-text": {
-      "type": "KainsPlants-text",
+    "kainsplants-text": {
+      "type": "kainsplants-text",
       "blocks": {
         "1664424181b38582d5-0": {
           "type": "item",
@@ -862,7 +862,7 @@
     "scrolling-text",
     "collection-list",
     "featured-collection",
-    "KainsPlants-text",
+    "kainsplants-text",
     "image-with-text-overlay",
     "media-grid",
     "before-after-image",

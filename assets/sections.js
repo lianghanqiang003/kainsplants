@@ -668,7 +668,7 @@ if (!window.customElements.get("images-with-text-scrolling")) {
   window.customElements.define("images-with-text-scrolling", ImagesWithTextScrolling);
 }
 
-// js/sections/KainsPlants-text.js
+// js/sections/kainsplants-text.js
 import { animate as animate4, inView as inView4 } from "//cdn.shopify.com/s/files/1/0604/5207/7740/t/57/assets/vendor.min.js?v=20880576495916334881691263407";
 var KainsPlantsText = class extends HTMLElement {
   connectedCallback() {

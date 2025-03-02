@@ -178,7 +178,7 @@ video {
   display: none !important;
 }
 
-height-observer, visibility-progress, scroll-area, video-media, model-media, media-carousel, KainsPlants-text, recently-viewed-products {
+height-observer, visibility-progress, scroll-area, video-media, model-media, media-carousel, kainsplants-text, recently-viewed-products {
   display: block;
 }
 
@@ -6700,64 +6700,64 @@ split-lines {
   }
 }
 
-.KainsPlants-text {
-  --KainsPlants-text-spacing: var(--spacing-10);
-  gap: var(--KainsPlants-text-spacing);
+.kainsplants-text {
+  --kainsplants-text-spacing: var(--spacing-10);
+  gap: var(--kainsplants-text-spacing);
   align-items: start;
   display: grid;
 }
 
-.KainsPlants-text--scroll {
-  grid: auto / auto-flow var(--KainsPlants-text-auto-columns);
+.kainsplants-text--scroll {
+  grid: auto / auto-flow var(--kainsplants-text-auto-columns);
 }
 
-.KainsPlants-text--center {
+.kainsplants-text--center {
   text-align: center;
   justify-content: safe center;
 }
 
-.KainsPlants-text--end {
+.kainsplants-text--end {
   text-align: end;
   justify-content: end;
 }
 
-.KainsPlants-text__text {
-  font-size: var(--KainsPlants-text-font-size);
+.kainsplants-text__text {
+  font-size: var(--kainsplants-text-font-size);
   letter-spacing: 0;
   line-height: 1;
 }
 
-.KainsPlants-text__text:not(:only-child) {
+.kainsplants-text__text:not(:only-child) {
   margin-bottom: .2em;
 }
 
-.KainsPlants-text__content {
+.kainsplants-text__content {
   max-width: 750px;
 }
 
-.KainsPlants-text--center .KainsPlants-text__content {
+.kainsplants-text--center .kainsplants-text__content {
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
 
-.KainsPlants-text--end .KainsPlants-text__content {
+.kainsplants-text--end .kainsplants-text__content {
   margin-inline-start: auto;
 }
 
 @media screen and (min-width: 700px) {
-  .KainsPlants-text {
-    --KainsPlants-text-spacing: var(--spacing-8);
-    grid: auto / auto-flow var(--KainsPlants-text-auto-columns);
+  .kainsplants-text {
+    --kainsplants-text-spacing: var(--spacing-8);
+    grid: auto / auto-flow var(--kainsplants-text-auto-columns);
   }
 
-  .KainsPlants-text--center {
+  .kainsplants-text--center {
     justify-content: space-evenly;
   }
 }
 
 @media screen and (min-width: 1150px) {
-  .KainsPlants-text {
-    --KainsPlants-text-spacing: var(--spacing-12);
+  .kainsplants-text {
+    --kainsplants-text-spacing: var(--spacing-12);
   }
 }
 
