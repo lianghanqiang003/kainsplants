@@ -190,6 +190,7 @@
         "item-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-anna-nekrashevich-8989497_d89b0def-884d-4ae8-b4a2-bdab5fdff2bd.jpg",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -211,6 +212,7 @@
         "item-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-cottonbro-9707471.jpg",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -232,6 +234,7 @@
         "item-3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-cup-of-couple-8472140_f29a3635-fd46-4852-8312-b72c241b6c7e.jpg",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
@@ -253,6 +256,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-huy-phan-316220-3125195.jpg",
             "title": "Promote your products",
             "heading_tag": "h4",
             "link_url": "",
