@@ -27,10 +27,10 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-lg",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#637c27",
+        "background": "{{ shop.brand.colors.secondary[0].background }}",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
