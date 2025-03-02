@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/house-plants-in-a-metallic-basket.jpg",
-            "mobile_image": "shopify://shop_images/WechatIMG399.jpg",
+            "image": "shopify://shop_images/slider1-pc.jpg",
+            "mobile_image": "shopify://shop_images/pexels-zen-chung-5748730.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -47,7 +47,7 @@
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(80deg, rgba(110, 157, 109, 1), rgba(39, 48, 0, 1) 100%)"
+        "background_gradient": "linear-gradient(80deg, rgba(39, 48, 0, 1), rgba(39, 48, 0, 1) 100%)"
       }
     },
     "image-link-blocks": {
@@ -91,38 +91,12 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
         "1664424046b00c932c-0",
         "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "1664424046b00c932c-2"
       ],
       "settings": {
         "full_width": false,
@@ -143,8 +117,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
+        "text": "KainsPlants: Use NEWCM for 10% off 1st order!",
+        "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
