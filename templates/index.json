@@ -15,21 +15,21 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/house-plants-in-a-metallic-basket.jpg",
-            "mobile_image": "shopify://shop_images/WechatIMG399.jpg",
-            "content_max_width": 780,
+            "image": "shopify://shop_images/slider1-pc.jpg",
+            "mobile_image": "shopify://shop_images/pexels-zen-chung-5748730.jpg",
+            "content_max_width": 760,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "Tell your story",
             "title": "Slide title",
             "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "shop now",
+            "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -39,7 +39,7 @@
         "slide-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
         "controls_type": "numbers",
@@ -134,6 +134,66 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "text_with_icons_BczRjb": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_Dq9rMT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_zrUmDQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_RXQN6z": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Dq9rMT",
+        "item_zrUmDQ",
+        "item_RXQN6z"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media-grid": {
@@ -396,66 +456,6 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
-      }
-    },
-    "text_with_icons_BczRjb": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_Dq9rMT": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
-          }
-        },
-        "item_zrUmDQ": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
-          }
-        },
-        "item_RXQN6z": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_Dq9rMT",
-        "item_zrUmDQ",
-        "item_RXQN6z"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
