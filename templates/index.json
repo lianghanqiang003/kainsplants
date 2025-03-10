@@ -147,8 +147,8 @@
             "content": "",
             "button_text": "",
             "button_url": "",
-            "animate_KainsPlants_text": false,
-            "animate_KainsPlants_text_duration": 2
+            "animate_KainsPlants_text": true,
+            "animate_KainsPlants_text_duration": 0.7
           }
         }
       },
@@ -161,11 +161,11 @@
         "text_alignment": "center",
         "KainsPlants_text_style": "fill",
         "text_divider": "none",
-        "KainsPlants_text_size_ratio": 1,
+        "KainsPlants_text_size_ratio": 0.8,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(33, 29, 13, 1), rgba(26, 26, 26, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -310,46 +310,6 @@
         "background_gradient": ""
       }
     },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -409,7 +369,6 @@
     "kainsplants-text",
     "featured_collection_AwL6zt",
     "media-grid",
-    "press",
     "faq"
   ]
 }
