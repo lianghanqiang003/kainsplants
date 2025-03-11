@@ -62,10 +62,10 @@
         "slide-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "numbers",
+        "image_size": "lg",
+        "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
