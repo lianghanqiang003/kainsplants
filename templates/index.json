@@ -73,6 +73,37 @@
         "background_gradient": "linear-gradient(80deg, rgba(39, 48, 0, 1), rgba(39, 48, 0, 1) 100%)"
       }
     },
+    "featured_collection_AwL6zt": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "hot",
+        "products": [
+          "artificial-olive-tree-fake-olive-plant-in-pot-tall-faux-plant-potted-faux-topiary-silk-tree-for-indoor-entryway-decor",
+          "artificial-potted-plant-simple-home-decor-for-indoor-outdoor-garden-home",
+          "cute-fruit-themed-planters-for-succulents-plants-flower-pots-decorative-ornament-fairy-garden-figurine-home-table-decoration",
+          "discount-natural-rattan-woven-flower-pot-waterproof-lining-large-living-room-pots-versatile-elegant-for-scene-plant-displays",
+          "levitating-air-bonsai-pot-rotation-flower-pot-planters-magnetic-suspension-floating-pot-potted-plant-home-without-plants"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -121,6 +152,7 @@
         "1664424046b00c932c-1",
         "1664424046b00c932c-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -169,42 +201,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "featured_collection_AwL6zt": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "grey-tool",
-          "copy-of-3d-attractive-pot",
-          "high-waist-trousers",
-          "11-product-with-video",
-          "hanged-candle-holder",
-          "3-variable-product",
-          "artificial-palm-pot",
-          "product-title-here-2",
-          "4-soldout-product",
-          "brown-leather-watch"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "media-grid": {
@@ -365,9 +361,9 @@
   },
   "order": [
     "slideshow",
+    "featured_collection_AwL6zt",
     "image-link-blocks",
     "kainsplants-text",
-    "featured_collection_AwL6zt",
     "media-grid",
     "faq"
   ]
