@@ -62,6 +62,18 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "associated_products": {
+          "type": "associated_products",
+          "settings": {}
+        },
+        "line_item_property": {
+          "type": "line_item_property",
+          "settings": {}
+        },
+        "collapsible_text": {
+          "type": "collapsible_text",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
