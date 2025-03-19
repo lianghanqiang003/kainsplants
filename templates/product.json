@@ -38,6 +38,37 @@
           "type": "payment_terms",
           "settings": {}
         },
+        "associated_products": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "collapsible_text": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_CdRhTr": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_dWYhLL": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -62,18 +93,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "associated_products": {
-          "type": "associated_products",
-          "settings": {}
-        },
-        "line_item_property": {
-          "type": "line_item_property",
-          "settings": {}
-        },
-        "collapsible_text": {
-          "type": "collapsible_text",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -93,8 +112,9 @@
         "rating",
         "payment_terms",
         "associated_products",
-        "line_item_property",
         "collapsible_text",
+        "collapsible_text_CdRhTr",
+        "collapsible_text_dWYhLL",
         "separator",
         "description",
         "variant_picker",
