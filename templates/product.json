@@ -34,19 +34,19 @@
             "show_empty": false
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
-        },
-        "associated_products": {
-          "type": "associated_products",
-          "settings": {
-            "title": "Buy it with",
-            "stack_products": true,
-            "products_count": 5,
-            "background": "",
-            "text_color": ""
-          }
         },
         "collapsible_text": {
           "type": "collapsible_text",
@@ -67,16 +67,6 @@
           "settings": {
             "title": "Title",
             "content": "<p>Share some content to your customers about your products.</p>"
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
           }
         },
         "variant_picker": {
@@ -103,6 +93,16 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "associated_products": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -110,16 +110,16 @@
         "badges",
         "price",
         "rating",
+        "separator",
+        "description",
         "payment_terms",
-        "associated_products",
         "collapsible_text",
         "collapsible_text_CdRhTr",
         "collapsible_text_dWYhLL",
-        "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "associated_products"
       ],
       "settings": {
         "full_width": true,
